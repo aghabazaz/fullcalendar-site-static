@@ -1,15 +1,11 @@
-# NOTE: keep in sync with _config.yml's exclude
-
-# jekyll
-_site
-.jekyll-metadata
-.sass-cache
-
-# npm
-node_modules
-
-# rubygems in TravisCI
-vendor
-
-# built assets
-assets/*.*
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+node_modules/
+bin/
+obj/
+.vs/
